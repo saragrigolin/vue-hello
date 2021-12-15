@@ -14,6 +14,13 @@
         <img :src="image" :class="small" alt="">
         <input type="text" v-model="text" :placeholder="placeholder">
         <p>{{ text }}</p>
+        <div class="flex">
+            <img :src="image2" :class="medium" alt="">
+            <span :class="m1">Prodotti desiderati: {{ num }}</span>
+            <button @click="addOneProduct" :class="m1">Aggiungi uno</button>
+            <button @click="rmvOneProduct" :class="m1">Rimuovi uno</button>
+        </div>
+        
     </div>
     <script src="js/script.js"></script>
 </body>
