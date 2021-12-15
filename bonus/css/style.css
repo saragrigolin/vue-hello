@@ -3,3 +3,16 @@
     display: block;
     margin-bottom: 1em;
 }
+
+.medium-img {
+    width: 400px;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.m-1 {
+    margin: 1em;
+}
