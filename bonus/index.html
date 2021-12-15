@@ -11,7 +11,9 @@
 <body>
     <div id="datas">
         <h1>{{ message }}</h1>
-        <img :src="image" alt="">
+        <img :src="image" :class="small" alt="">
+        <input type="text" v-model="text" :placeholder="placeholder">
+        <p>{{ text }}</p>
     </div>
     <script src="js/script.js"></script>
 </body>

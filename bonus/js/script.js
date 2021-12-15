@@ -16,7 +16,10 @@ const app = new Vue (
         el: '#datas', //prendo l'id dell'elemento su cui voglio lavorare
         data: { //inserisco i dati
             message: 'Questo è un messaggio di test in un h1',
-            image: 'https://www.aiapp.net/wp-content/uploads/2020/09/Agricoltura.jpg'
+            image: 'https://www.aiapp.net/wp-content/uploads/2020/09/Agricoltura.jpg',
+            small: 'small-img',
+            text: '',
+            placeholder: 'Inserisci testo'
         }
     }
 );
